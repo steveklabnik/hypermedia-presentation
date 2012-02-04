@@ -1,0 +1,11 @@
+{
+  "name": "Designing Hypermedia APIs",
+  "description": "A talk about API design.",
+  "sections": [
+    {"section":"background"},
+    {"section":"api_overview"},
+    {"section":"hypermedia_overview"},
+    {"section":"five_steps_of_design"},
+    {"section":"epilogue"}
+  ]
+}

@@ -1,0 +1,299 @@
+.content {
+  font-family: Georgia;
+}
+
+.title-slide,
+.title-slide h1,
+.title-slide h2 {
+  text-align: left;
+}
+
+.title-slide {
+  padding: 0 50px;
+}
+
+.title-slide h1 {
+  font-size: 800%;
+  font-weight: bold;
+  letter-spacing: -0.04em;
+}
+
+.title-slide h2 {
+  margin-top: -2.6em;
+  padding-right: 3em;
+  text-align: right;
+}
+
+
+.hello h1 {
+  text-align:left;
+  padding-left:50px;
+  font-size: 700%;
+  background-color: #4DBCE9;
+}
+
+.hello strong {
+  text-shadow: -2px -2px 0px #FFF;
+}
+
+.hackety h1 {
+  text-align:left;
+  padding-left: 50px;
+  padding-bottom: 12px;
+  font-size: 700%;
+  background-color: #4DBCE9;
+}
+
+.hackety strong {
+  text-shadow: -2px -2px 0px #FFF;
+}
+
+.jumpstart h1 {
+  text-align:left;
+  padding-left: 50px;
+  padding-bottom: 12px;
+  font-size: 700%;
+  background-color: #4DBCE9;
+}
+
+.jumpstart strong {
+  text-shadow: -2px -2px 0px #FFF;
+}
+
+.meaning-of-rest h1 {
+  padding:0;
+  margin:0;
+  font-size: 1500%;
+  background-color: #4DBCE9;
+  text-shadow: -2px -2px 0px #FFF;
+}
+
+.meaning-of-rest h2 {
+  margin:0;
+  padding:0;
+  font-size: 800%;
+  letter-spacing: 0.02em;
+  background-color: #4DBCE9;
+  text-shadow: -2px -2px 0px #FFF;
+}
+
+.meaning-of-rest h3 {
+  margin:0;
+  padding:0;
+  font-size: 550%;
+  background-color: #4DBCE9;
+}
+
+.meaning-of-rest p {
+  margin:0;
+  padding:0;
+  font-size: 450%;
+  background-color: #4DBCE9;
+}
+
+.over h1 {
+  font-size: 800%;
+  letter-spacing: -0.04em;
+  background-color: #4DBCE9;
+  text-shadow: -2px -2px 0px #FFF;
+}
+
+.strike h1 {
+  text-align: right;
+  font-size:750%;
+  padding-right:0.5em;
+}
+
+.strike h1.rest {
+  background-color: #4DBCE9;
+  text-shadow: -2px -2px 0px #FFF;
+}
+
+.strike h1.hypermedia {
+  background-color: #D1E751;
+  text-shadow: -3px -3px 0px #FFF;
+}
+
+span.strikethrough {
+  text-decoration: line-through;
+}
+
+.background h1 {
+  font-size: 800%;
+  background-color: #D1E751;
+  text-shadow: -3px -3px 0px #FFF;
+}
+
+.designing-hypermedia-apis span {
+  padding-left:4px;
+  padding-right:4px;
+  margin:-8px;
+}
+
+.designing-hypermedia-apis span.designing {
+  background-color: #4DBCE9;
+  text-shadow: -3px -3px 0px #FFF;
+}
+
+.designing-hypermedia-apis span.hypermedia {
+  background-color: #D1E751;
+  text-shadow: -3px -3px 0px #FFF;
+}
+
+.designing-hypermedia-apis span.apis {
+  background-color: #003798;
+  color: #FFF;
+  text-shadow: -3px -3px 0px #000;
+}
+
+.api-overview {
+  background-color: #003798;
+  color: #FFF;
+  text-shadow: -3px -3px 0px #000;
+}
+
+.three-styles h1 {
+  background-color: #003798;
+  color: #FFF;
+  text-shadow: -3px -3px 0px #000;
+  padding-bottom:10px;
+}
+
+.style-rpc-philosophy h1 {
+  background-color: #003798;
+  color: #FFF;
+  text-shadow: -3px -3px 0px #000;
+}
+
+.style-soap-philosophy h1 {
+  background-color: #003798;
+  color: #FFF;
+  text-shadow: -3px -3px 0px #000;
+}
+
+.style-rest-philosophy h1 {
+  background-color: #003798;
+  color: #FFF;
+  text-shadow: -3px -3px 0px #000;
+}
+
+.rest-disclaimer {
+  background-color: #CC0000;
+  color: #FFF;
+  text-shadow: -3px -3px 0px #000;
+}
+
+.style-hypermedia-philosophy h1 {
+  background-color: #003798;
+  color: #FFF;
+  text-shadow: -3px -3px 0px #000;
+  padding-bottom:10px;
+}
+
+.blue-title h1 {
+  background-color: #003798;
+  color: #FFF;
+  text-shadow: -3px -3px 0px #000;
+}
+
+.big-para p {
+  font-size:475%;
+}
+
+.green-title h1 {
+  background-color: #D1E751;
+  text-shadow: -3px -3px 0px #FFF;
+}
+
+.padding-bottom h1 {
+  padding-bottom:10px;
+}
+
+.medium-paras p {
+  font-size:300%;
+}
+
+.little-bullets li {
+  font-size:70%;
+  padding:0;
+  margin:-10px;
+}
+
+.little-bullets li li {
+  font-size:70%;
+  padding:0;
+  margin:0px;
+}
+
+.five-steps-intro h1, .five-steps-intro h2, .five-steps-intro h3{
+  text-align:left;
+  padding-left: 50px;
+  margin-top: -30px;
+  letter-spacing: -0.04em;
+}
+
+.five-steps-intro h1 {
+  font-size: 800%;
+  font-weight: bold;
+}
+
+.five-steps-intro h2 {
+  font-weight: bold;
+  font-size: 600%;
+  margin-top: -50px;
+}
+
+.five-steps-intro h3 {
+  font-size:400%;
+}
+
+.five-steps {
+  font-size:155%;
+}
+
+.five-steps ol {
+  margin-top:-50px;
+  padding-left:180px;
+}
+
+.lightblue-title h1 {
+  background-color: #4DBCE9;
+  text-shadow: -3px -3px 0px #FFF;
+}
+
+.w3clove-pic img {
+  margin-top:0px;
+  margin-left:-25px;
+  padding:0px;
+}
+
+.bigcode pre {
+  margin-left:175px;
+  font-size:320%;
+}
+
+.state-machine img {
+  margin-top:0px;
+  margin-left:-25px;
+  padding:0px;
+}
+
+.two-processes p {
+  margin-left:150px;
+  font-size:800%;
+}
+
+.media-definition ul li {
+  font-size:120%;
+  margin-left:175px;
+}
+
+.recap ol li {
+  font-size:120%;
+  margin-left:120px;
+}
+
+.three-styles ul li {
+  margin-left:350px;
+}
+

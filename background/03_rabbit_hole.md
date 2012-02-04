@@ -15,7 +15,7 @@ for the meaning of
 
 <!SLIDE rest-disclaimer>
 
-# Remember, I'm speaking about 'Rails REST.'
+<h1>Remember, I'm speaking about ‘Rails REST.’</h1>
 
 <!SLIDE strike padding-bottom>
 

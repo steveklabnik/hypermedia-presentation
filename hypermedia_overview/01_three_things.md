@@ -6,27 +6,23 @@
 
 # Hypermedia APIs
 
-* HTTP
-* MIME
-* Hypermedia
+<h2>Hypermedia designs scale better, are more easily changed and promote decoupling
+and encapsulation, with all the benefits those things bring. </h2>
 
-<!SLIDE green-title medium-paras>
+<!SLIDE green-title padding-bottom>
 
-# HTTP
+# Hypermedia APIs
 
-How stuff gets sent
+<h2>On the downside, 
+it is not necessarily the most latency-tolerant design, and caches can get stale
+if you're not careful. It may not be as efficient on an individual request level
+as other designs.</h2>
 
-<!SLIDE green-title medium-paras>
+<!SLIDE green-title padding-bottom>
 
-# MIME
+# Hypermedia APIs
 
-What stuff gets sent
 
-<!SLIDE green-title medium-paras>
-
-# Hypermedia
-
-Specific kinds of stuff that gets sent
 
 <!SLIDE green-title little-bullets>
 
@@ -61,9 +57,3 @@ Specific kinds of stuff that gets sent
 <!SLIDE>
 
 # <code>GET /photos/12/delete</code>
-
-<!SLIDE green-title padding-bottom>
-
-# MIME & Hypermedia
-
-Sitting in a tree

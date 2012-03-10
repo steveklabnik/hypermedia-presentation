@@ -3,7 +3,7 @@
 
 <!SLIDE>
 
-# JSON cant drive your API.
+# JSON can't drive your API.
 
 <!SLIDE>
 

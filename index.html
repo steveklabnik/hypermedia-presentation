@@ -120,133 +120,37 @@
 <h1>Some Background</h1></div>
 </div><div class="slide" data-transition="none"><div class="content designing-hypermedia-apis" ref="background/03_rabbit_hole/6">
 <h1><span class="designing">Designing</span> <span class="hypermedia">Hypermedia</span> <span class="apis">APIs</span></h1></div>
-</div><div class="slide" data-transition="none"><div class="content api-overview" ref="api_overview/01_four_styles/1">
-<h1>API Overview</h1></div>
-</div><div class="slide" data-transition="none"><div class="content three-styles" ref="api_overview/01_four_styles/2">
-<h1>Four major architectural styles</h1></div>
-</div><div class="slide" data-transition="none"><div class="content style-rpc" ref="api_overview/01_four_styles/3">
-<h1>RPC</h1>
-
-<pre><code>POST /jsonrpc
-{ "method": "echo",
-  "params": 
- ["Hello JSON-RPC"],
-  "id": 1
-}
-
-Response:
-{ "result": "Hello JSON-RPC",
-  "error": null, "id": 1}
-</code></pre></div>
-</div><div class="slide" data-transition="none"><div class="content style-rpc-philosophy" ref="api_overview/01_four_styles/4">
-<h1>RPC</h1>
-
-<h2>Make a method call over the internet.</h2></div>
-</div><div class="slide" data-transition="none"><div class="content style-soap" ref="api_overview/01_four_styles/5">
-<h1>SOAP</h1>
-
-<pre><code>POST /soap
-&lt;xml&gt;
-  ZOMGSOMUCHSTUFF
-
-Response: 
-&lt;xml&gt;
-  ZOMGSOMUCHSTUFF
-</code></pre></div>
-</div><div class="slide" data-transition="none"><div class="content style-soap-philosophy" ref="api_overview/01_four_styles/6">
-<h1>SOAP</h1>
-
-<h2>Send an object over the wire.</h2></div>
-</div><div class="slide" data-transition="none"><div class="content rest-disclaimer" ref="api_overview/01_four_styles/7">
-
-
-<h1>Remember, I'm speaking about &#x2018;Rails REST.&#x2019;</h1>
-
-
-</div>
-</div><div class="slide" data-transition="none"><div class="content style-rest" ref="api_overview/01_four_styles/8">
-<h1>REST</h1>
-
-<pre><code>PUT /posts/1
-&amp;title=Hello%20World
-
-Response:
-200 OK
-</code></pre></div>
-</div><div class="slide" data-transition="none"><div class="content style-rest-philosophy" ref="api_overview/01_four_styles/9">
-<h1>REST</h1>
-
-<h2>RPC with a uniform interface</h2></div>
-</div><div class="slide" data-transition="none"><div class="content style-hypermedia" ref="api_overview/01_four_styles/10">
-<h1>Hypermedia</h1>
-
-<pre><code>GET /
-Content-Type: application/collection+json
-
-{ "collection" :
-  {
-  "links" : [
-    {"rel" : "feed",
-     "href" : "http://example.org/rss"}
-  ],
-  ...
-}
-</code></pre></div>
-</div><div class="slide" data-transition="none"><div class="content style-hypermedia-philosophy" ref="api_overview/01_four_styles/11">
-<h1>Hypermedia</h1>
-
-<h2>Hypertext as the engine of application state</h2></div>
-</div><div class="slide" data-transition="none"><div class="content three-styles" ref="api_overview/01_four_styles/12">
-<h1>RECAP: Four major architectural styles</h1>
-
-<ul>
-<li>RPC</li>
-<li>SOAP</li>
-<li>REST</li>
-<li>Hypermedia</li>
-</ul>
-</div>
-</div><div class="slide" data-transition="none"><div class="content blue-title" ref="api_overview/02_definitions/1">
-<h1>Some Definitions</h1></div>
-</div><div class="slide" data-transition="none"><div class="content" ref="api_overview/02_definitions/2">
-<h1>hy&#xB7;per&#xB7;me&#xB7;di&#xB7;a&#x2002;<br/>[hahy-per-mee-dee-uh]</h1></div>
-</div><div class="slide" data-transition="none"><div class="content" ref="api_overview/02_definitions/3">
-<h1>hypertext <br/>[hahy-per-tekst]</h1></div>
-</div><div class="slide" data-transition="none"><div class="content big-para" ref="api_overview/02_definitions/4">
-<p>Hypertext is <strong>text</strong> displayed on a computer or other electronic
-device <strong>with references</strong> (hyperlinks) to other text.</p></div>
-</div><div class="slide" data-transition="none"><div class="content big-para" ref="api_overview/02_definitions/5">
-<p>Hypermedia extends hypertext to all media.</p></div>
-</div><div class="slide" data-transition="none"><div class="content" ref="api_overview/02_definitions/6">
-<h1>Media type</h1></div>
-</div><div class="slide" data-transition="none"><div class="content big-para" ref="api_overview/02_definitions/7">
-<p>A media type is a way of identifing the structure of a document.</p>
-
-<p>Ex: <code>application/json</code>, <code>text/html</code></p></div>
 </div><div class="slide" data-transition="none"><div class="content green-title padding-bottom" ref="hypermedia_overview/01_three_things/1">
 <h1>Hypermedia APIs</h1></div>
 </div><div class="slide" data-transition="none"><div class="content green-title padding-bottom" ref="hypermedia_overview/01_three_things/2">
 <h1>Hypermedia APIs</h1>
 
-<ul>
-<li>HTTP</li>
-<li>MIME</li>
-<li>Hypermedia</li>
-</ul>
+<h2>Hypermedia designs scale better, are more easily changed and promote decoupling
+and encapsulation, with all the benefits those things bring. </h2>
+
+
 </div>
-</div><div class="slide" data-transition="none"><div class="content green-title medium-paras" ref="hypermedia_overview/01_three_things/3">
-<h1>HTTP</h1>
+</div><div class="slide" data-transition="none"><div class="content green-title padding-bottom" ref="hypermedia_overview/01_three_things/3">
+<h1>Hypermedia APIs</h1>
 
-<p>How stuff gets sent</p></div>
-</div><div class="slide" data-transition="none"><div class="content green-title medium-paras" ref="hypermedia_overview/01_three_things/4">
-<h1>MIME</h1>
+<h2>On the downside, 
+it is not necessarily the most latency-tolerant design, and caches can get stale
+if you're not careful. It may not be as efficient on an individual request level
+as other designs.</h2>
 
-<p>What stuff gets sent</p></div>
-</div><div class="slide" data-transition="none"><div class="content green-title medium-paras" ref="hypermedia_overview/01_three_things/5">
-<h1>Hypermedia</h1>
 
-<p>Specific kinds of stuff that gets sent</p></div>
-</div><div class="slide" data-transition="none"><div class="content green-title little-bullets" ref="hypermedia_overview/01_three_things/6">
+</div>
+</div><div class="slide" data-transition="none"><div class="content green-title padding-bottom li-spacer" ref="hypermedia_overview/01_three_things/4">
+
+
+<h1>Hypermedia APIs</h1>
+
+<ol>
+<li>Use HTTP Properly<sup>*</sup></li>
+<li>Use Hypermedia to guide clients through business processes</li>
+</ol>
+</div>
+</div><div class="slide" data-transition="none"><div class="content green-title little-bullets" ref="hypermedia_overview/01_three_things/5">
 <h1>Why HTTP?</h1>
 
 <ul>
@@ -266,7 +170,7 @@ device <strong>with references</strong> (hyperlinks) to other text.</p></div>
 <li>Code-on-demand</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content green-title little-bullets" ref="hypermedia_overview/01_three_things/7">
+</div><div class="slide" data-transition="none"><div class="content green-title little-bullets" ref="hypermedia_overview/01_three_things/6">
 <h1>Why HTTP?</h1>
 
 <ul>
@@ -286,12 +190,8 @@ device <strong>with references</strong> (hyperlinks) to other text.</p></div>
 <li><strike>Code-on-demand</strike></li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content" ref="hypermedia_overview/01_three_things/8">
+</div><div class="slide" data-transition="none"><div class="content" ref="hypermedia_overview/01_three_things/7">
 <h1><code>GET /photos/12/delete</code></h1></div>
-</div><div class="slide" data-transition="none"><div class="content green-title padding-bottom" ref="hypermedia_overview/01_three_things/9">
-<h1>MIME &amp; Hypermedia</h1>
-
-<p>Sitting in a tree</p></div>
 </div><div class="slide" data-transition="none"><div class="content five-steps-intro" ref="five_steps_of_design/00_intro/1">
 <h3>Five steps of</h3>
 
@@ -358,7 +258,7 @@ Host: http://w3clove.com
 </div><div class="slide" data-transition="none"><div class="content lightblue-title padding-bottom" ref="five_steps_of_design/03_evaluate_media_types/1">
 <h1>Evaluate<br/>Media<br/>Types</h1></div>
 </div><div class="slide" data-transition="none"><div class="content" ref="five_steps_of_design/03_evaluate_media_types/2">
-<h1>JSON cant drive your API.</h1></div>
+<h1>JSON can't drive your API.</h1></div>
 </div><div class="slide" data-transition="none"><div class="content" ref="five_steps_of_design/03_evaluate_media_types/3">
 <h1>Sorry.</h1></div>
 </div><div class="slide" data-transition="none"><div class="content" ref="five_steps_of_design/03_evaluate_media_types/4">
@@ -453,13 +353,13 @@ request(uri,
 </div><div class="slide" data-transition="none"><div class="content lightblue-title padding-bottom medium-paras" ref="epilogue/01_epilogue/2">
 <h1>I'm writing a book!</h1>
 
-<p><a href="http://getsomere.st">http://getsomere.st</a></p></div>
+<p><a href="http://designinghypermediaapis.com/">http://designinghypermediaapis.com/</a></p></div>
 </div><div class="slide" data-transition="none"><div class="content" ref="epilogue/01_epilogue/3">
 <p><a href="http://twitter.com/steveklabnik">@steveklabnik</a></p>
 
 <p><a href="http://steveklabnik.com">http://steveklabnik.com</a></p>
 
-<p><a href="http://getsomere.st">http://getsomere.st</a></p>
+<p><a href="http://designinghypermediaapis.com/">http://designinghypermediaapis.com/</a></p>
 
 <p><a href="http://tutorials.jumpstartlab.com">http://tutorials.jumpstartlab.com</a></p></div>
 </div></div>

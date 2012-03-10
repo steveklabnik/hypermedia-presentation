@@ -18,11 +18,13 @@ it is not necessarily the most latency-tolerant design, and caches can get stale
 if you're not careful. It may not be as efficient on an individual request level
 as other designs.</h2>
 
-<!SLIDE green-title padding-bottom>
-
+<!SLIDE green-title padding-bottom li-spacer>
+<style>
+</style>
 # Hypermedia APIs
 
-
+1. Use HTTP Properly<sup>*</sup>
+2. Use Hypermedia to guide clients through business processes
 
 <!SLIDE green-title little-bullets>
 

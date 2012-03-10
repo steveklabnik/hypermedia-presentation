@@ -12,7 +12,7 @@
 
 # I'm writing a book!
 
-[http://getsomere.st](http://getsomere.st)
+[http://designinghypermediaapis.com/](http://designinghypermediaapis.com/)
 
 <!SLIDE>
 
@@ -20,6 +20,6 @@
 
 [http://steveklabnik.com](http://steveklabnik.com)
 
-[http://getsomere.st](http://getsomere.st)
+[http://designinghypermediaapis.com/](http://designinghypermediaapis.com/)
 
 [http://tutorials.jumpstartlab.com](http://tutorials.jumpstartlab.com)

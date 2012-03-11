@@ -22,10 +22,3 @@ for the meaning of
 <h1 class="rest"><span class="strikethrough">REST</span> APIs</h1>
 <h1 class="hypermedia">Hypermedia APIs</h1>
 
-<!SLIDE background padding-bottom>
-
-# Some Background
-
-<!SLIDE designing-hypermedia-apis>
-# <span class="designing">Designing</span> <span class="hypermedia">Hypermedia</span> <span class="apis">APIs</span>
-

@@ -2,6 +2,10 @@
   font-family: Georgia;
 }
 
+.line-height h2, .line-height h3, .line-height li, .line-height p {
+  line-height: 60px;
+}
+
 .title-slide,
 .title-slide h1,
 .title-slide h2 {

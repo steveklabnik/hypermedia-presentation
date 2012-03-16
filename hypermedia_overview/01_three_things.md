@@ -2,14 +2,14 @@
 
 # Hypermedia APIs
 
-<!SLIDE green-title padding-bottom>
+<!SLIDE green-title padding-bottom line-height>
 
 # Hypermedia APIs
 
 <h2>Hypermedia designs scale better, are more easily changed and promote decoupling
 and encapsulation, with all the benefits those things bring. </h2>
 
-<!SLIDE green-title padding-bottom>
+<!SLIDE green-title padding-bottom line-height>
 
 # Hypermedia APIs
 
@@ -18,7 +18,7 @@ it is not necessarily the most latency-tolerant design, and caches can get stale
 if you're not careful. It may not be as efficient on an individual request level
 as other designs.</h2>
 
-<!SLIDE green-title padding-bottom>
+<!SLIDE green-title padding-bottom line-height>
 
 # Hypermedia APIs
 

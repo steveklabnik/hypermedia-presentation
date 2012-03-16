@@ -34,13 +34,13 @@ application/vnd.w3clove.validation+json
 
 A response MAY contain `created_at`, `scraped_at`, `scraping_success`, `updated_at`, `url`, `web_pages_count`, `validation_errors_count`, `validation_warnings_count`, and `pending_count` elements.
 
-<!SLIDE lightblue-title medium-paras>
+<!SLIDE lightblue-title medium-paras line-height>
 
 # Hypermedia Controls
 
 A response MAY include a `forms` element, which is an array of objects. They MUST have these elements: `href`, `rel`, and `data` elements. `data` will be an array of objects that MUST have two keys, `name`, and `value`.
 
-<!SLIDE lightblue-title medium-paras>
+<!SLIDE lightblue-title medium-paras line-height>
 
 # Hypermedia Controls
 
